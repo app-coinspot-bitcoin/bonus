@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Mont";
+  src: local("Mont"), url("Mont-Regular.ttf") format("truetype"),
+    url("Mont-Regular.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontLt";
+  src: local("MontLt"), url("Mont-Light.ttf") format("truetype"),
+    url("Mont-Light.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontBd";
+  src: local("MontBd"), url("Mont-Bold.ttf") format("truetype"),
+    url("Mont-Bold.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontSmBd";
+  src: local("MontBd"), url("Mont-SemiBold.ttf") format("truetype"),
+    url("Mont-SemiBold.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("Inter-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterLt";
+  src: local("InterLt"), url("Inter-Light.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterSmBd";
+  src: local("InterSmBd"), url("Inter-SemiBold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterMd";
+  src: local("InterMd"), url("Inter-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterBd";
+  src: local("InterBd"), url("Inter-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: local("Circular"), url("circular-book.otf") format("truetype");
+  font-style: normal;
+}
