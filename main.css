@@ -2,21 +2,21 @@
     font-family: 'Circular Std Black';
     font-style: normal;
     font-weight: normal;
-    src: local('Circular Std Black'), url('CircularStd-Black.woff') format('woff');
+    src: local('Circular Std Black'), url('public/fonts/CircularStd-Black.woff') format('woff');
   }
 
   @font-face {
     font-family: 'Circular Std Book';
     font-style: normal;
     font-weight: normal;
-    src: local('Circular Std Book'), url('CircularStd-Book.woff') format('woff');
+    src: local('Circular Std Book'), url('public/fonts/CircularStd-Book.woff') format('woff');
   }
 
   @font-face {
     font-family: 'Circular Std Book';
     font-style: normal;
     font-weight: bold;
-    src: local('Circular Std Book'), url('CircularStd-Bold.woff') format('woff');
+    src: local('Circular Std Book'), url('public/fonts/CircularStd-Bold.woff') format('woff');
   }  
 
 
@@ -24,7 +24,7 @@
     font-family: 'Circular Std Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('Circular Std Medium'), url('CircularStd-Medium.woff') format('woff');
+    src: local('Circular Std Medium'), url('public/fonts/CircularStd-Medium.woff') format('woff');
   }
 
 
@@ -32,27 +32,27 @@
     font-family: 'Circular Std Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Circular Std Bold'), url('CircularStd-Bold.woff') format('woff');
+    src: local('Circular Std Bold'), url('public/fonts/CircularStd-Bold.woff') format('woff');
   }  
 
   @font-face {
     font-family: "Mont";
-    src: local("Mont"), url("Mont-Regular.ttf") format("truetype"),
-      url("Mont-Regular.woff") format("woff");
+    src: local("Mont"), url("public/v2/font/Mont-Regular.ttf") format("truetype"),
+      url("public/v2/font/Mont-Regular.woff") format("woff");
     font-style: normal;
   }
   
   @font-face {
     font-family: "MontLt";
-    src: local("MontLt"), url("Mont-Light.ttf") format("truetype"),
-      url("Mont-Light.woff") format("woff");
+    src: local("MontLt"), url("public/v2/font/Mont-Light.ttf") format("truetype"),
+      url("public/v2/font/Mont-Light.woff") format("woff");
     font-style: normal;
   }
   
   @font-face {
     font-family: "MontBd";
-    src: local("MontBd"), url("Mont-Bold.ttf") format("truetype"),
-      url("Mont-Bold.woff") format("woff");
+    src: local("MontBd"), url("public/v2/font/Mont-Bold.ttf") format("truetype"),
+      url("public/v2/font/Mont-Bold.woff") format("woff");
     font-style: normal;
   }
 
@@ -100,7 +100,7 @@ font-weight:bold;
 } 
 
 .page-header h1 {
-color: #17181C !important;
+color: #004FEE !important;
 border-bottom: 0 !important;
 }
 
@@ -108,8 +108,7 @@ h2 {font-size: 24px;font-weight: 300}
 h3 {font-size: 18px;font-weight: 300}
 
 .page-header h1, h1, h2, h3, h4 {
-  color: #17181C !important;
-  font-family: "InterSmBd";
+  color: #004FEE !important;
 }
 
 #sidebar h3 {
@@ -117,7 +116,7 @@ h3 {font-size: 18px;font-weight: 300}
 }
 
 h1.price-title {
-  color: #17181C !important;
+  color: #3E5169 !important;
 }
 
 .banner h2 {
@@ -860,7 +859,7 @@ padding-right: 10px;
 .panel-heading { 
 font-size: 18px; 
 border-bottom: 1px solid #004FEE; 
-padding: 0px 0px 5px 0px; 
+padding: 0px 0px 10px 0px; 
 color: #004FEE !important;
 }
 
@@ -1544,7 +1543,6 @@ font-weight: 500;
   font-size: 32px; 
   margin-bottom: 40px; 
   margin-top: 40px; 
-  font-family: "MontSmBd" !important;
 } 
 
 .buybanner .how-do-i {
@@ -1571,7 +1569,6 @@ font-weight: 500;
   border: 0;
   margin-bottom: 0;
   padding-bottom: 40px;
-  font-family: "Mont";
 }
 
 .buybanner ul {
